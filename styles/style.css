@@ -54,7 +54,6 @@
   padding-block-start: 100px;
   font-family: var(--main-font-family, "Inter", sans-serif);
   font-size: var(--main-font-size, 18px);
-  font-variation-settings: "wght" var(--main-font-weight);
   color: var(--text-color, #000000);
   background-color: var(--background-color, #ffffff);
   background-image: var(--background-image, none);
