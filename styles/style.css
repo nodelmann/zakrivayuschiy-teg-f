@@ -51,10 +51,10 @@
   min-block-size: 100dvb;
   display: grid;
   justify-items: center;
-  gap: 100px;
   padding-block-start: 100px;
   font-family: var(--main-font-family, "Inter", sans-serif);
   font-size: var(--main-font-size, 18px);
+  font-variation-settings: "wght" var(--main-font-weight);
   color: var(--text-color, #000000);
   background-color: var(--background-color, #ffffff);
   background-image: var(--background-image, none);
@@ -75,7 +75,7 @@
 }
 
 .button:focus-visible {
-  box-shadow: 2px 2px 0 var(--color-dark);
+  box-shadow: 2px 2px 0 var(--text-color);
   outline: none;
 }
 
@@ -86,6 +86,8 @@
   border: var(--border);
   background-color: var(--background-color, #ffffff);
   font-family: var(--accent-font-family);
+  font-weight: var(--main-font-weight);
+  margin-block-end: 100px;
 }
 
 .header__logo {
@@ -190,6 +192,7 @@
   z-index: 1;
   font-family: var(--accent-font-family);
   font-size: var(--accent-font-size);
+  font-weight: var(--main-font-weight);
   top: 25px;
   right: 25px;
   color: var(--color-label);
@@ -230,7 +233,6 @@
   justify-content: flex-end;
   margin-inline-end: 25px;
   margin-block-end: 25px;
-  max-height: 40px;
 }
 
 .card__icon-button {
@@ -244,6 +246,7 @@
 
 .card__icon-button:focus-visible {
   border: 2px solid var(--color-dark);
+  box-shadow: none;
 }
 
 .sparks {
@@ -279,11 +282,13 @@
   mix-blend-mode: difference;
   font-family: var(--accent-font-family);
   font-size: var(--accent-font-size);
+  font-weight: var(--main-font-weight);
   line-height: 0.9;
 }
 
 .card__save {
   display: flex;
+  margin-block-end: 100px;
 }
 
 .button__save {
@@ -341,7 +346,7 @@
   inline-size: 39px;
   block-size: 39px;
   align-self: center;
-  color: var(--color-button-text);
+  color: var(--text-color);
   background-size: 39px 39px;
 }
 
