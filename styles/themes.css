@@ -47,21 +47,20 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --main-font-weight: 465;
-    --background-color: var(--color-dark, #000000);
-    --text-color: var(--color-accent, #00cc14);
-    --background-image: repeating-linear-gradient(
-        to right,
-        #000000 0 2px,
-        #00000000 2px 4px
-      ),
-      repeating-linear-gradient(to bottom, #000000 0 2px, #00000000 2px 4px),
-      linear-gradient(to bottom, #007f0c, #004306);
-    --border: 2px solid var(--color-accent, #00cc14);
-    --color-label:var(--color-accent);
-    --color-text-stroke: #000000;
-    --color-fill-effect: var(--color-accent);
-    --color-button-text: var(--color-accent);
-    --color-heart-contour: var(--color-accent);
-    --color-heart-accent: #FF0000;
+  --background-color: var(--color-dark, #000000);
+  --text-color: var(--color-accent, #00cc14);
+  --background-image: repeating-linear-gradient(
+      to right,
+      #000000 0 2px,
+      #00000000 2px 4px
+    ),
+    repeating-linear-gradient(to bottom, #000000 0 2px, #00000000 2px 4px),
+    linear-gradient(to bottom, #007f0c, #004306);
+  --border: 2px solid var(--color-accent, #00cc14);
+  --color-label:var(--color-accent, #00cc14);
+  --color-text-stroke: var(--color-dark, #000000);
+  --color-fill-effect: var(--color-accent, #00cc14);
+  --color-button-text: var(--color-accent, #00cc14);
+  --color-heart-contour: var(--color-accent, #00cc14);
   }
 }
