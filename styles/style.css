@@ -54,6 +54,7 @@
   padding-block-start: 100px;
   font-family: var(--main-font-family, "Inter", sans-serif);
   font-size: var(--main-font-size, 18px);
+  font-variation-settings: "wght" var(--main-font-weight);
   color: var(--text-color, #000000);
   background-color: var(--background-color, #ffffff);
   background-image: var(--background-image, none);
@@ -176,7 +177,7 @@
 .card__title {
   font-family: var(--main-font-family, "Inter", sans-serif);
   font-size: var(--main-font-size, 18px);
-  font-weight: var(--heading-font-weight, 700);
+  font-variation-settings: "wght" var(--title-font-weight);
   line-height: 1.05;
   padding: 8px 24px 7px 10px;
 }
@@ -244,7 +245,7 @@
 }
 
 .card__icon-button:focus-visible {
-  border: 2px solid var(--color-dark);
+  border: 2px solid var(--text-color);
   box-shadow: none;
 }
 
@@ -281,7 +282,6 @@
   mix-blend-mode: difference;
   font-family: var(--accent-font-family);
   font-size: var(--accent-font-size);
-  font-weight: var(--main-font-weight);
   line-height: 0.9;
 }
 

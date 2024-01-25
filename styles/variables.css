@@ -4,11 +4,11 @@
   --accent-font-family: "PressStart2P", fantasy;
   --main-font-size: 18px;
   --main-font-weight: 400;
+  --title-font-weight: 700;
   --accent-font-size: 14px;
   --section-width: clamp(375px, 100%, 700px);
   --header-logo-font-size: clamp(3.063rem, 1.909rem + 4.92vw, 4.063rem);
   --header-title-font-size: clamp(0.875rem, 0.226rem + 2.77vw, 1.438rem);
-  --heading-font-weight: 700;
   --color-light: #ffffff;
   --color-dark: #000000;
   --color-accent: #00cc14;
