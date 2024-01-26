@@ -21,6 +21,7 @@
 
 :root.theme-dark {
   --main-font-weight: 465;
+  --title-font-weight: 785;
   --background-color: var(--color-dark, #000000);
   --text-color: var(--color-accent, #00cc14);
   --background-image: repeating-linear-gradient(
@@ -41,6 +42,7 @@
 @media (prefers-color-scheme: dark) {
   :root {
   --main-font-weight: 465;
+  --title-font-weight: 785;
   --background-color: var(--color-dark, #000000);
   --text-color: var(--color-accent, #00cc14);
   --background-image: repeating-linear-gradient(
